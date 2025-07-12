@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Ocean Blue Theme Colors (Light Theme) -->
+    <color name="ocean_blue_primary">#1E88E5</color> <!-- Primary color for toolbars, buttons -->
+    <color name="ocean_blue_primary_variant">#1565C0</color> <!-- Darker primary for status/nav bars -->
+    <color name="ocean_blue_secondary">#42A5F5</color> <!-- Secondary color for accents -->
+    <color name="ocean_blue_secondary_variant">#2196F3</color> <!-- Darker secondary for hover effects -->
+    <color name="ocean_blue_light">#90CAF9</color> <!-- Lighter shade for highlights -->
+    <color name="ocean_blue_dark">#0D47A1</color> <!-- Darker shade for contrast -->
+
+    <!-- Surface and Background (Light Theme) -->
+    <color name="surface_light">#FFFFFF</color> <!-- Card and surface backgrounds -->
+    <color name="background_light">#FAFAFA</color> <!-- App background -->
+    <color name="on_surface_light">#000000</color> <!-- Text/icon color on surfaces -->
+    <color name="on_background_light">#212121</color> <!-- Text/icon color on background -->
+
+    <!-- Additional UI Colors (Light Theme) -->
+    <color name="text_primary_light">#212121</color> <!-- Primary text (e.g., titles) -->
+    <color name="text_secondary_light">#757575</color> <!-- Secondary text (e.g., subtitles) -->
+    <color name="text_hint_light">#B0BEC5</color> <!-- Hint text for EditText -->
+    <color name="button_background_light">#1E88E5</color> <!-- Button background -->
+    <color name="button_text_light">#FFFFFF</color> <!-- Button text/icon -->
+    <color name="fab_background_light">#42A5F5</color> <!-- FAB background -->
+    <color name="fab_icon_light">#FFFFFF</color> <!-- FAB icon -->
+    <color name="card_background_light">#F5F5F5</color> <!-- Note card background -->
+    <color name="accent_light">#FF4081</color> <!-- Accent for interactive elements -->
+
+
+    <!-- Surface and Background (Dark Theme) -->
+    <color name="surface_dark">#212121</color> <!-- Card and surface backgrounds -->
+    <color name="background_dark">#121212</color> <!-- App background -->
+    <color name="on_surface_dark">#FFFFFF</color> <!-- Text/icon color on surfaces -->
+    <color name="on_background_dark">#E0E0E0</color> <!-- Text/icon color on background -->
+
+    <!-- Additional UI Colors (Dark Theme) -->
+    <color name="text_primary_dark">#E0E0E0</color> <!-- Primary text (e.g., titles) -->
+    <color name="text_secondary_dark">#B0BEC5</color> <!-- Secondary text (e.g., subtitles) -->
+    <color name="text_hint_dark">#78909C</color> <!-- Hint text for EditText -->
+    <color name="button_background_dark">#1976D2</color> <!-- Button background -->
+    <color name="button_text_dark">#FFFFFF</color> <!-- Button text/icon -->
+    <color name="fab_background_dark">#64B5F6</color> <!-- FAB background -->
+    <color name="fab_icon_dark">#FFFFFF</color> <!-- FAB icon -->
+    <color name="card_background_dark">#424242</color> <!-- Note card background -->
+    <color name="accent_dark">#F06292</color> <!-- Accent for interactive elements -->
+</resources>

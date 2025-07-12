@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SecureNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ocean_blue_primary</item>
+        <item name="colorPrimaryVariant">@color/ocean_blue_primary_variant</item>
+        <item name="colorSecondary">@color/ocean_blue_secondary</item>
+        <item name="colorSecondaryVariant">@color/ocean_blue_secondary_variant</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/ocean_blue_dark</item>
+        <item name="android:navigationBarColor">@color/ocean_blue_dark</item>
+
+        <!-- Additional UI elements -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:textColorHint">@color/text_hint_dark</item>
+        <item name="buttonStyle">@style/Widget.SecureNotes.Button.Dark</item>
+        <item name="floatingActionButtonStyle">@style/Widget.SecureNotes.FloatingActionButton.Dark</item>
+        <item name="cardViewStyle">@style/Widget.SecureNotes.CardView.Dark</item>
+        <item name="colorAccent">@color/accent_dark</item>
+        <item name="editTextBackground">?attr/colorSurface</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!-- Dark Button Style -->
+    <style name="Widget.SecureNotes.Button.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_background_dark</item>
+        <item name="android:textColor">@color/button_text_dark</item>
+    </style>
+
+    <!-- Dark FAB Style -->
+    <style name="Widget.SecureNotes.FloatingActionButton.Dark" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/fab_background_dark</item>
+        <item name="tint">@color/fab_icon_dark</item>
+    </style>
+
+    <!-- Dark CardView Style -->
+    <style name="Widget.SecureNotes.CardView.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background_dark</item>
+    </style>
+</resources>
